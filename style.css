@@ -1,0 +1,83 @@
+body {
+    background-color: #f5a95d; /* Warna latar belakang */
+}
+
+
+h1 {
+    color: rgb(23, 21, 18); /* Warna teks */
+    font-size: 40px; /* Ukuran teks */
+    text-align: left; /* Posisi teks di tengah */
+    margin-top: 20px; /* Jarak atas dari teks */
+    margin-bottom: 20px; /* Jarak bawah dari teks */
+    
+}
+
+.container {
+    display: flex; /* Menggunakan display flex untuk menata konten */
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    align-items: center; /* Pusatkan elemen secara horizontal */
+    gap: 20px; /* Jarak antara elemen-elemen */
+}
+
+.card {
+    width: 40%; /* Lebar kartu */
+    padding: 20px; /* Padding untuk konten kartu */
+    background: none; /* Warna latar belakang kartu */
+    border-radius: 5px; /* Border radius untuk sudut */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow efek */
+}
+
+.card img {
+    width: 100%; /* ukuran gambar */
+    border-radius: 5px; /* Mengurangi radius border untuk gambar */
+}
+
+/* Gaya untuk teks di dalam kartu */
+.text {
+    width: 40%; /* Lebar teks */
+    padding: 20px; /* Padding untuk konten teks */
+}
+
+/* Gaya untuk form login */
+.login-form {
+    width: 300px; /* Lebar form */
+    padding: 20px; /* Padding untuk isi form */
+    background: #f4f4f4; /* Warna latar belakang form */
+    border-radius: 5px; /* Border radius untuk sudut */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow efek */
+}
+
+/* Gaya untuk judul form */
+.login-form h2 {
+    text-align: center; /* Teks di tengah */
+    margin-bottom: 20px; /* Jarak bawah dari judul */
+}
+
+/* Gaya untuk input dalam form */
+.login-form input {
+    width: 100%; /* Lebar input */
+    padding: 10px; /* Padding untuk isi input */
+    margin-bottom: 10px; /* Jarak antara input */
+    border-radius: 5px; /* Border radius untuk sudut */
+    border: 1px solid #ccc; /* Border dengan warna abu-abu */
+}
+
+/* Gaya untuk tombol dalam form */
+.login-form button {
+    width: 100%; /* Lebar tombol */
+    padding: 10px; /* Padding untuk isi tombol */
+    margin-top: 10px; /* Jarak atas dari tombol */
+    border: none; /* Tanpa border */
+    background: #007bff; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    border-radius: 5px; /* Border radius untuk sudut */
+    cursor: pointer; /* Mengubah kursor menjadi tangan saat diarahkan ke tombol */
+}
+
+/* Gaya untuk teks waktu */
+#waktu {
+    text-align: center; /* Teks di tengah */
+    font-style: italic; /* Teks miring */
+    color: #888; /* Warna teks abu-abu */
+    margin-top: 10px; /* Jarak atas dari teks */
+}

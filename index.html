@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"> <!-- Menghubungkan file CSS -->
+    <title>UCP1PDW</title>
+</head>
+<body>
+    <div class="content wrapper">
+        <!-- Membuat Judul halaman -->
+        <h1 style="color:rgb(18, 16, 12); font-size:40px; text-align:center;">Dream House</h1>
+        <p style="color:black(18,16,12); font: size 19px; text-align:center;"> Temukan rumah impianmu di sini!
+            Hubungi kami sekarang dan mulailah petualangan menuju rumah impian </p>
+
+        <div class="container">
+            <!-- Membuat Card -->
+            <div class="card">
+                <img src="Assets/Images2.jpg" width="200" height="300" alt="gambar rumah 1">
+                <img src="Assets/Images3.jpg" width="200" height="300" alt="gambar rumah 1">
+            </div>
+
+            <!-- Membuat Teks -->
+            <div class="text">
+                <p> Masuk Untuk Melihat Rumah Impian Anda
+                </p>
+            </div>
+
+            <!-- Membuat Form login -->
+            <div class="login-form">
+                <h2>Login</h2>
+                <form>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Username"/>
+                    <label for="password">Password:</label> 
+                    <input type="password" id="password" placeholder="Password"/> 
+                    <button onclick="myfunction()" type="submit">Login</button>
+                    <p id="waktu"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script/main.js"></script> <!-- Menghubungkan file JavaScript -->
+    <script>
+        function myfunction() {
+            alert("berhasil");
+        } 
+    </script>
+</body>
+</html>
